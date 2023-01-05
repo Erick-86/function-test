@@ -36,3 +36,13 @@ const calcAverage = avgScore =>{
 const teamDolphines = calcAverage(44 + 23 + 71)
 const teamKoala = calcAverage(65 + 54 + 49)
 console.log(teamDolphines, teamKoala)
+
+//task 3
+function checkWinner(avgDolhins, avgKoalas){
+    if(avgDolhins > avgKoalas){
+        console.log(`Team Dolphines won (${teamDolphines} vs ${teamKoala})`)
+    }else{
+        console.log(`Team Koala won (${teamKoala} vs ${teamDolphines})`)
+    }
+}
+console.log(checkWinner(teamDolphines, teamKoala))
