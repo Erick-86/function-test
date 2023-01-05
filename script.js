@@ -46,3 +46,5 @@ function checkWinner(avgDolhins, avgKoalas){
     }
 }
 console.log(checkWinner(teamDolphines, teamKoala))
+
+//Task 4
