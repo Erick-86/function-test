@@ -25,3 +25,9 @@ Hints:
 Apply this to the team's average scores �
 GOOD LUCK �
 */
+
+//SOLUTIONS
+//Task 1
+const calcAverage = avgScore =>{
+    return (avgScore) / 3
+}
