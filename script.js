@@ -31,3 +31,8 @@ GOOD LUCK �
 const calcAverage = avgScore =>{
     return (avgScore) / 3
 }
+
+//Task 2
+const teamDolphines = calcAverage(44 + 23 + 71)
+const teamKoala = calcAverage(65 + 54 + 49)
+console.log(teamDolphines, teamKoala)
