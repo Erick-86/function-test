@@ -28,9 +28,7 @@ GOOD LUCK �
 
 //SOLUTIONS
 //Task 1
-const calcAverage = avgScore =>{
-    return (avgScore) / 3
-}
+const calcAverage = avgScore => (avgScore) / 3
 
 //Task 2
 const teamDolphines = calcAverage(44 + 23 + 71)
